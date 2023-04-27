@@ -3,7 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D839BD4-3EAB-4C3D-9FCA-94C065FEE57A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmpCore", "AmpCore\AmpCore.vcxproj", "{D724DC01-B090-4D3B-900D-F08FFCF32808}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StudioMain", "StudioMain\StudioMain.vcxproj", "{74A77367-856C-4E6D-A7C4-18C80B595049}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D724DC01-B090-4D3B-900D-F08FFCF32808}.Debug|x64.ActiveCfg = Debug|x64
+		{D724DC01-B090-4D3B-900D-F08FFCF32808}.Debug|x64.Build.0 = Debug|x64
+		{D724DC01-B090-4D3B-900D-F08FFCF32808}.Release|x64.ActiveCfg = Release|x64
+		{D724DC01-B090-4D3B-900D-F08FFCF32808}.Release|x64.Build.0 = Release|x64
+		{74A77367-856C-4E6D-A7C4-18C80B595049}.Debug|x64.ActiveCfg = Debug|x64
+		{74A77367-856C-4E6D-A7C4-18C80B595049}.Debug|x64.Build.0 = Debug|x64
+		{74A77367-856C-4E6D-A7C4-18C80B595049}.Release|x64.ActiveCfg = Release|x64
+		{74A77367-856C-4E6D-A7C4-18C80B595049}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
