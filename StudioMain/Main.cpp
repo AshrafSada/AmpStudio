@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <AmpCore/AmpCore.h>
 
-int main() {
+int main()
+{
     printf("%i", Testing());
 
     return 0;

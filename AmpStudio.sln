@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D839BD4-3EAB-4C3D-9FCA-94C065FEE57A}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		GlobalRules.ruleset = GlobalRules.ruleset
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 	EndProjectSection

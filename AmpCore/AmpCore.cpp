@@ -4,6 +4,7 @@
 #include "pch.h"
 #include "framework.h"
 
-int Testing() {
+int Testing()
+{
     return 200;
 }
